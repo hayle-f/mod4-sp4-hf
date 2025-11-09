@@ -147,3 +147,29 @@ npm run dev
 ```text
 http://localhost:3000
 ```
+
+
+<!-- 
+
+<!-- 
+      Lista resumida de pasos a seguir
+
+    1-  Crear AuthContext (estado de usuario + login/logout/register).
+
+    2-  Crear mock DB para probar login/register.
+
+    3-  Modificar LoginRegister para que use el contexto.
+
+    4-  Ajustar la app para condicionar botones y rutas según isAuthenticated.
+
+    5-  Crear página Profile con menú lateral y contenido dinámico.
+
+    6-  Revisar hooks de favoritos/carrito para que respeten login.
+
+    7-  Integrar DB real si quieres persistencia.
+
+    8-  Ajustes y mejoras: validaciones, mensajes, estilos.
+
+ -->
+
+ -->

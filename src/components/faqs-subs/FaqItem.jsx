@@ -1,8 +1,10 @@
 
 
-const FaqItem = ({ id, question, answer, isOpen, toggle }) => {
+const FaqItem = ({ id, question, answer, isFaqOpen, toggle }) => {
   return (
     <div className="faq-item mb-2">
+
+      {/* Pregunta y flecha */}
       <button
         onClick={() => toggle(id)}
         className="flex justify-between items-center font-semibold p-[10px] gap-4 text-left w-full border-none cursor-pointer text-[0.9rem] sm:text-base xl:text-[1.3rem] text-[#141414] dark:text-[#c9c9c9]"
@@ -10,11 +12,13 @@ const FaqItem = ({ id, question, answer, isOpen, toggle }) => {
         {question}
         <span
           className={`arrow w-0 h-0 border-l-4 border-r-4 border-transparent border-t-8 border-t-[#333333dd] text-[#333333dd] dark:border-t-[#c9c9c9] transition-transform duration-300 ease-in-out ${
-            isOpen ? "rotate-180" : ""
+            isFaqOpen ? "rotate-180" : ""
           }`}
         ></span>
       </button>
-      {isOpen && (
+
+      {/* Si este FaqItem está abierto, se muestra su respuesta */}
+      {isFaqOpen && (
         <div className="p-3 bg-[#3333330a] dark:bg-[#5151517e] mt-1 rounded-lg">
           <p className="p-1 text-sm leading-5 xl:text-[1rem] text-[#141414] dark:text-[#c9c9c9]">
             {answer.split("\n").map((line, idx) => (
@@ -26,6 +30,7 @@ const FaqItem = ({ id, question, answer, isOpen, toggle }) => {
           </p>
         </div>
       )}
+
     </div>
   );
 };

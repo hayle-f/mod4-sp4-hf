@@ -20,14 +20,14 @@ const Faqs = () => {
                 Preguntas Frecuentes
             </h1>
 
-            <div className="grid xl:grid-cols-2 gap-y-3 gap-x-[8%] my-3 ">
+            <div className="grid xl:grid-cols-2 gap-y-3 gap-x-[8%] my-3 w-full">
                 {dataFaqs.map((faq) => (
                 <FaqItem
                     key={faq.id}
                     id={faq.id}
                     question={faq.question}
                     answer={faq.answer}
-                    isOpen={openFaq === faq.id}        // Le pasamos el estado (openFaq)
+                    isFaqOpen={openFaq === faq.id}        // Le pasamos el estado (openFaq)
                     toggle={handleToggle}           
                 />
                 ))}

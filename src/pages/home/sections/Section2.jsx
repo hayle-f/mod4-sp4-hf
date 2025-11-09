@@ -4,7 +4,8 @@ const Section2 = () => {
   return (
     <section 
       id="section2"
-      className="min-h-[300px] flex flex-col sm:flex-row items-center justify-center p-4 my-6 mx-4 [box-shadow:2px_2px_10px_#00000048] rounded-2xl dark:bg-[#363636] sm:my-8 sm:mx-5"
+      className="min-h-[300px] flex flex-col sm:flex-row items-center justify-center p-4 my-6 mx-4 [box-shadow:2px_2px_10px_#00000048] rounded-2xl dark:bg-[#363636] sm:my-8 sm:mx-5 
+        border border-[#36363650]"
     >
       {/* Texto */}
       <div id="textos" className="flex flex-col text-center gap-2 w-full sm:max-w-[45%] p-2">

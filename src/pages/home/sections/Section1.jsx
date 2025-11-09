@@ -3,7 +3,8 @@ const Section1 = () => {
   return (
     <section 
       id="section1" 
-      className="min-h-[300px] flex flex-wrap items-center justify-center p-4 my-6 mx-4 [box-shadow:2px_2px_10px_#00000048] rounded-2xl dark:bg-[#363636] sm:my-8  sm:mx-5"
+      className="min-h-[300px] flex flex-wrap items-center justify-center p-4 sm:px-6 my-6 mx-4 [box-shadow:2px_2px_10px_#00000048] rounded-2xl dark:bg-[#363636] sm:my-8 sm:mx-5 border border-[#36363650]
+      "
     >
       <div className="flex flex-col text-center  gap-4">
         <h2 className="text-[1.4rem] sm:text-3xl xl:text-[2.2rem] text-[#333333] dark:text-[#e2e2e2] font-bold">

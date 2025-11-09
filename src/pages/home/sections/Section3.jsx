@@ -4,7 +4,8 @@ const Section3 = () => {
   return (
     <section
       id="section3"
-      className="min-h-[300px] flex flex-col sm:flex-row items-center justify-center p-4 my-6 mx-4 [box-shadow:2px_2px_10px_#00000048] rounded-2xl dark:bg-[#363636] sm:my-8 sm:mx-5"
+      className="min-h-[300px] flex flex-col sm:flex-row items-center justify-center p-4 my-6 mx-4 [box-shadow:2px_2px_10px_#00000048] rounded-2xl dark:bg-[#363636] sm:my-8 sm:mx-5 
+        border border-[#36363650]"
     >
       {/* Imagen 3D */}
       <div className="p-[10px] flex justify-center items-center w-full max-w-[400px] sm:max-w-[50%] aspect-[1/1]">

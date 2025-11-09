@@ -13,8 +13,7 @@ const Faqs = () => {
     };
 
     return (
-        <section className="items-center justify-center gap-3 p-4 my-8 mx-auto max-w-[90%] [box-shadow:2px_2px_10px_#00000048] rounded-2xl xl:p-[30px] xl:max-w-[80%]
-        border border-[#33333352] dark:bg-[#363636] flex flex-col  items-center[box-shadow:0px_4px_10px_#0000000c,_0px_-4px_15px_#00000022] dark:text-[#c9c9c9]
+        <section className="items-center justify-center gap-3 p-4 my-8 mx-auto max-w-[90%] [box-shadow:2px_2px_10px_#00000048] rounded-2xl xl:p-[30px] xl:max-w-[80%] border border-[#36363650] dark:bg-[#363636] flex flex-col  items-center[box-shadow:0px_4px_10px_#0000000c,_0px_-4px_15px_#00000022] dark:text-[#c9c9c9]
         ">
             <h1 className="text-[2rem] p-2 text-center sm:text-[2.2rem] xl:text-[2.5rem] text-[#333333] dark:text-[#e2e2e2] font-bold">
                 Preguntas Frecuentes

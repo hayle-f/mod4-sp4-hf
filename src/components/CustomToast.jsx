@@ -18,6 +18,11 @@ export const CustomToast = () => {
             pauseOnHover={false}
             theme={theme === "dark" ? "dark" : "light"}
             transition={Slide}
+
+            // 👇 acá aplicás clases Tailwind al contenedor
+            className="text-sm max-w-[200px] z-50 mt-12"
+            
+            
         />
     )
 }
